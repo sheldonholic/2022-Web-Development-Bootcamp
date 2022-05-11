@@ -1,3 +1,224 @@
 body{
-    background-color: burlywood;
+    scroll-behavior: smooth;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#EAF6F6;
+}
+
+.nav-item:hover {
+    background-color: #56a0a088;
+    color: #fff;
+}
+
+.navbar:hover {
+    box-shadow: 3px 3px 6px #40514e70;
+    
+}
+
+.nav-item {
+    padding:20px;
+    margin: 0;
+    float:left;
+    
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-item>a {
+    color: #40514E;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.middle-container {
+    margin: 0px;
+}
+
+.profile {
+    margin: 0px;
+    width: 100%;
+    height: fit-content;
+    background-color: #EAF6F6;
+    text-align: center;
+}
+
+#pro {
+    font-weight: bolder;
+    text-decoration: dotted;
+    text-decoration: underline;
+}
+
+.profile>h2 {
+    /*font-family: 'Brush Script MT';*/
+    font-family: 'Lucida Handwriting';
+    color: #56a0a0;
+    font-size: 6vh;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.profile>p {
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 3vh;
+    color: #56a0a0;
+    margin-top: 0;
+    padding-bottom: 2rem;
+}
+
+#profile-img {
+    width: 40vw;
+    height: fit-content;
+}
+
+.hello {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    text-align: center;
+}
+
+#hello-img {
+    border-radius: 100%;
+    width: 150px;
+    margin-top: 3rem;
+}
+
+.hello>h2 {
+    padding-top: 20px;
+    color: #56a0a0;
+    width: 50vw;
+    font-weight: bold;
+    line-clamp: 3;
+    font-family: 'Trebuchet MS';
+    margin: 0 auto 0 auto;
+    line-height: 2rem;
+}
+
+
+.hello>p {
+    width: 50vw;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #40514E;
+    line-clamp: 3;
+    font-family: 'Trebuchet MS';
+    margin: 0 auto 0 auto;
+    line-height: 2rem;
+}
+
+.skills,
+.contact-me {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    text-align: center;
+}
+
+.skills>h2,
+.contact-me>h2 {
+    padding-top: 30px;
+    color: #56a0a0;
+    width: 50vw;
+    font-weight: bold;
+    line-clamp: 3;
+    font-family: 'Trebuchet MS';
+    margin: 0 auto 0 auto;
+    line-height: 2rem;
+}
+
+.skill-row>h3,
+.contact-me>h3 {
+    padding-top: 30px;
+    color: #0bbfc5;
+    width: 50vw;
+    font-size: 1rem;
+    font-weight: bold;
+    line-clamp: 3;
+    font-family: 'Trebuchet MS';
+    margin: 0 auto 0 10px;
+    line-height: 2rem;
+}
+
+.skill-row {
+    width: 60vw;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    padding-top: 30px;
+    text-align: start;
+}
+
+.skill-img1,
+.skill-img2 {
+    float: left;
+    margin: auto;
+    padding-top: 30px;
+    margin-right: 1rem;
+}
+
+.skill-row>p,
+.contact-me>p {
+    width: 50vw;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #40514E;
+    line-clamp: 3;
+    font-family: 'Trebuchet MS';
+    margin: 0 auto 0 0;
+    line-height: 2rem;
+}
+
+.skill-img2 {
+    float: right;
+}
+
+.contact-me>h3,
+.contact-me>p {
+    margin: 0 auto 0 auto;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #56a0a0;
+    color: #EAF6F6;
+    font-weight: bold;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.527);
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #76e9e9;
+    box-shadow: 7px 7px 11px rgba(0, 0, 0, 0.527);
+}
+
+.bottom-container {
+    background-color: #56a0a0;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.bottom-container>p {
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
 }
